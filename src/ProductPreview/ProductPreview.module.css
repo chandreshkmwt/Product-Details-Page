@@ -1,0 +1,49 @@
+.productpreview{
+    width: 100%;
+    position: relative;
+}
+
+.productpreview img{
+    width: 100%;
+}
+
+.time{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aqua;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aqua;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.heart p{
+    margin-top: 16px;
+}
+
+.heart i{
+    color: red;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat{
+    0%{
+      transform: scale(1, 1);
+    }
+    50%{
+      transform: scale(1.2, 1.2);
+    }
+    100%{
+      transform: scale(1, 1);
+    }
+  }
